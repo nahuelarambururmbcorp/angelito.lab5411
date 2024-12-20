@@ -138,6 +138,9 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/voku/simple_html_dom" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/assert" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/yajra/laravel-datatables-oracle" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
+      <excludeFolder url="file://$MODULE_DIR$/storage/app/public/eventos" />
+      <excludeFolder url="file://$MODULE_DIR$/storage/framework/cache/data" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
