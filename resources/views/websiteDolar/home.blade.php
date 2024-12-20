@@ -1,6 +1,7 @@
 @extends('layouts.websiteDolar')
 
 @section('content')
+
 	<main class="Main-Wrapper">
 			<section class="home-hero mt-default position-relative">
 				<!-- <div class="parallax" style="background-image: url('assets/img/home/Home-Hero-Angelitos.jpg');"></div> -->
