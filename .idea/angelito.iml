@@ -141,6 +141,7 @@
       <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
       <excludeFolder url="file://$MODULE_DIR$/storage/app/public/eventos" />
       <excludeFolder url="file://$MODULE_DIR$/storage/framework/cache/data" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

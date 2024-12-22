@@ -30,7 +30,7 @@ class HomeController extends WebsiteController
     public function index()
     {
 
-        $album = PhotoAlbum::where('slug', "eius-neque")->first();
+        $album = PhotoAlbum::where('slug', "sliderhome-1")->first();
         $item = Article::with('photos')->where('slug', "el-show")->first();
         $eventos = Evento::get();
 
@@ -62,10 +62,9 @@ class HomeController extends WebsiteController
     public function informacion()
     {
 
-        $album = PhotoAlbum::where('slug', "sliderinformacion")->first();
+        $album = PhotoAlbum::where('slug', "SliderInformacion")->first();
         $item = Article::with('photos')->where('slug', "informacion-practica")->first();
         $eventos = Evento::get();
-
         return $this->view('informacion')->with('slider', $album)->with('hidePageFooter', true)->with('articles', $item)->with('eventos', $eventos);
     }
 

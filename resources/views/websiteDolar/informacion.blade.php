@@ -12,7 +12,6 @@
 								<div class="box-heading mb-4">
 									<h3 class="wow bounceInRight" data-wow-duration="1s" data-wow-delay="0.4s">Información Práctica</h3>
 								</div>
-								<p class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.4s"><strong>Estamos muy cerca tuyo</strong></p>
 							</div>
 						</div>
 					</div>
