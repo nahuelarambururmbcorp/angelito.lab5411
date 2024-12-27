@@ -127,6 +127,7 @@ Route::group(['middleware' => ['auth', 'auth.admin'], 'prefix' => 'app/admin', '
 
 
         Route::resource('eventos', "EventoController");
+        Route::resource('timeline', "TimelineController");
 
 
 

@@ -45,7 +45,6 @@ class ArticlesController extends AdminController
     public function store(Request $request)
     {
         $attributes = request()->validate(Article::$rules, Article::$messages);
-
         $this->createEntry(Article::class, $attributes);
 
         return redirect_to_resource();
@@ -71,7 +70,6 @@ class ArticlesController extends AdminController
     public function edit(Article $article)
     {
         $categories = ArticleCategory::getAllList();
-
         return $this->view('blog.create_edit', compact('categories'))->with('item', $article);
     }
 
@@ -85,7 +83,6 @@ class ArticlesController extends AdminController
     public function update(Article $article, Request $request)
     {
         $attributes = request()->validate(Article::$rules, Article::$messages);
-
         $this->updateEntry($article, $attributes);
 
         return redirect_to_resource();

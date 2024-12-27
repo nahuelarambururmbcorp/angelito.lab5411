@@ -54,9 +54,9 @@
 		<link rel="stylesheet" href="{{ asset('assets/css/color.css') }}">
 	    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive.css') }}"/>
 
-<!-- Partner ticketing -->
-<script defer data-gyg-partner-hash="9MRZPLV" data-gyg-currency="USD" src="https://cdn.getyourguide.com/partner-ticketing/latest/ticketing.umd.min.js"></script>
-<!-- End partner ticketing -->
+		<!-- Partner ticketing -->
+		<script defer data-gyg-partner-hash="9MRZPLV" data-gyg-currency="USD" src="https://cdn.getyourguide.com/partner-ticketing/latest/ticketing.umd.min.js"></script>
+		<!-- End partner ticketing -->
 
 
         @include ('partials.favicons')
@@ -78,9 +78,7 @@
 
         @yield('content')
 
-
         @include('website.partials.footer')
-
 
         </body>
 

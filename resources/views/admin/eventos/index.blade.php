@@ -34,10 +34,10 @@
 						@foreach ($eventos as $evento)
 							<tr>
 							<td>
-    @if($evento->imagen)
-        <img src="{{ asset('storage/' . $evento->imagen) }}" style="height: 50px;">
-    @endif
-</td>
+								@if($evento->imagen)
+									<img src="{{ asset('storage/' . $evento->imagen) }}" style="height: 50px;">
+								@endif
+							</td>
                                 <td>{{ $evento->nombre }}</td>
                                 <td>{{ $evento->transporte }}</td>
                                 <td>{{ $evento->cena }}</td>

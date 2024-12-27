@@ -17,13 +17,19 @@
                 @include ('admin.partials.navigation_list', ['collection' => $navigation['root']])
 
                 <li class="">
-                <a href="/app/admin/eventos">
-            <i class="fa fa-fw fa-newspaper-o"></i>
-            <span>Eventos</span>
-
-                            <i class="fa fa-angle-left pull-right"></i>
+                    <a href="/app/admin/eventos">
+                        <i class="fa fa-fw fa-newspaper-o"></i>
+                            <span>Eventos</span>
+                        <i class="fa fa-angle-left pull-right"></i>
                     </a>
-            </li>
+                </li>
+                <li>
+                    <a href="/app/admin/timeline">
+                        <i class="fa fa-fw fa-times-circle-o"></i>
+                        <span>Time Line</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                </li>
 
             </ul>
         </nav>

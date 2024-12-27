@@ -17,7 +17,7 @@
         <meta property="og:title" name="og:title" content="{{ isset($title) ? $title : config('app.title') }}">
         <meta property="og:description" name="og:description" content="{{ isset($description) ? $description : config('app.description') }}">
         <meta property="og:image" name="og:image" content="{{ config('app.url') }}{{ isset($image) ? $image : '/images/logo.png' }}">
-
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         @include ('partials.favicons')
 
         <title>{{ isset($title) ? $title : config('app.name') }}</title>
