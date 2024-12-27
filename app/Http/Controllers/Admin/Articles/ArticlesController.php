@@ -19,7 +19,6 @@ class ArticlesController extends AdminController
     public function index()
     {
         save_resource_url();
-
         $items = Article::with(['category', 'photos'])->get();
 
         return $this->view('articles.index', compact('items'));

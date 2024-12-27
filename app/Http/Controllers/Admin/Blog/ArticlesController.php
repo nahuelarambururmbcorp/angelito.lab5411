@@ -20,7 +20,6 @@ class ArticlesController extends AdminController
     {
         save_resource_url();
         $items = Article::with(['category', 'photos'])->get();
-
         return $this->view('blog.index', compact('items'));
     }
 

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<main class="Main-Wrapper">
+	<main class="Main-Wrapper">
 			<section class="cenaShow-hero mt-default">
 				<div class="container-lg">
 					<div class="row align-items-center">
@@ -181,6 +181,4 @@
 
 </main>
 
-
-        
 @endsection

@@ -44,10 +44,17 @@ class HomeController extends WebsiteController
 
         $album = PhotoAlbum::where('slug', "slidershow")->first();
         $event = News::whereHas('photos')->with('photos')->active()->orderBy('active_from', 'DESC')->get();
+
         $item = Article::with('photos')->where('slug', "el-show")->first();
+        $content1 = Article::where('slug', "el-show")->first()->content1;
+        $content2 = Article::where('slug', "el-show")->first()->content2;
+        $content3 = Article::where('slug', "el-show")->first()->content3;
+        $content4 = Article::where('slug', "el-show")->first()->content4;
+        $contentList = array($content1, $content2, $content3, $content4);
+
         $eventos = Evento::get();
         $timeline = Timeline::orderBy('order','asc')->get();
-        return $this->view('show')->with('slider', $album)->with('event', $event)->with('hidePageFooter', true)->with('articles', $item)->with('eventos', $eventos)->with('timeline', $timeline);
+        return $this->view('show',['data'=> $item, 'contentList' => $contentList])->with('slider', $album)->with('event', $event)->with('hidePageFooter', true)->with('articles', $item)->with('eventos', $eventos)->with('timeline', $timeline);
     }
 
     public function cena_y_show()
@@ -68,14 +75,16 @@ class HomeController extends WebsiteController
         $item = Article::with('photos')->where('slug', "informacion-practica")->first();
         $eventos = Evento::get();
 
-        $data = Article::where('slug', "informacion-practica")->first()->content;
+        $article = Article::where('slug', "informacion-practica")->first();
+
         $content1 = Article::where('slug', "informacion-practica")->first()->content1;
         $content2 = Article::where('slug', "informacion-practica")->first()->content2;
         $content3 = Article::where('slug', "informacion-practica")->first()->content3;
         $content4 = Article::where('slug', "informacion-practica")->first()->content4;
         $contentList = array($content1, $content2, $content3, $content4);
+
         $timeline = Timeline::orderBy('order','asc')->get();
-        return $this->view('informacion', ['data'=> $data, 'contentList' => $contentList] )->with('slider', $album)->with('hidePageFooter', true)->with('articles', $item)->with('eventos', $eventos)->with('timeline', $timeline);
+        return $this->view('informacion', ['data'=> $article, 'contentList' => $contentList] )->with('slider', $album)->with('hidePageFooter', true)->with('articles', $item)->with('eventos', $eventos)->with('timeline', $timeline);
     }
 
     public function shop()

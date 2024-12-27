@@ -1161,10 +1161,42 @@ span.ic {
 --------------------------------------------------------------*/
 .hero-show {
     padding: 120px 0 160px;
-    background-image: url('../../assets/img/show/Hero-El-Show.jpg');
-    background-position: top center;
+    background-color: #000000;
+    background-image: url('../../assets/img/show/show-image-01.png');
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-show-0 {
+    padding: 120px 0 160px;
+    background-color: #000000;
+    background-image: url('../../assets/img/show/show-image-02.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-show-1 {
+    padding: 120px 0 160px;
+    background-color: #000000;
+    background-image: url('../../assets/img/show/show-image.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-show-2 {
+    padding: 120px 0 160px;
+    background-color: #000000;
+    background-image: url('../../assets/img/show/show-image.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-show-3 {
+    padding: 120px 0 160px;
+    background-color: #000000;
+    background-image: url('../../assets/img/show/show-image.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
