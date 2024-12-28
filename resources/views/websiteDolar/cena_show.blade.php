@@ -11,7 +11,7 @@
 									<h3 class="wow bounceInRight" data-wow-duration="1s" data-wow-delay="0.4s">Cena y Show</h3>
 								</div>
 								<h3 class="wow bounceInRight" data-wow-duration="1s" data-wow-delay="0.4s"><span class="font-red">El Espacio</span></h3>
-								<p class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.4s"><strong>{!! $articles->content !!}</strong></p>
+								<p class="" data-wow-duration="1s" data-wow-delay="0.4s"> {!! $articles->content !!} </p>
 							</div>
 						</div>
 					</div>
@@ -22,16 +22,16 @@
 				<div class="container-lg">
 					<div class="row align-items-center justify-content-center">
 						<div class="col-12 col-md-8 col-lg-6 col-xl-5">
-							<div class="box-detail text-center box-detail_shop">
+							<div class="box-detail  text-center">
 								<div class="box-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-									<h3 class="mb-5">Descripción</h3>
+									<h3 class="mb-5 text-white">Descripción</h3>
 								</div>
-								<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">{!! $articles->content2 !!}</p>
+								<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">{!! $articles->content1 !!}</p>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
+	</section>
 
 			<!-- <section class="cenaShow-servicios">
 				<div class="container-lg">

@@ -68,6 +68,7 @@ class ArticlesController extends AdminController
      */
     public function edit(Article $article)
     {
+
         $categories = ArticleCategory::getAllList();
         return $this->view('blog.create_edit', compact('categories'))->with('item', $article);
     }

@@ -75,7 +75,7 @@ class HomeController extends WebsiteController
         $item = Article::with('photos')->where('slug', "informacion-practica")->first();
         $eventos = Evento::get();
 
-        $article = Article::where('slug', "informacion-practica")->first();
+        $article = Article::where('slug', "informacion-practica")->first()->content;
 
         $content1 = Article::where('slug', "informacion-practica")->first()->content1;
         $content2 = Article::where('slug', "informacion-practica")->first()->content2;

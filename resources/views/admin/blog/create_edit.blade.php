@@ -38,62 +38,33 @@
                                 </div>
                             </div>
 
-                            <!-- <div class="form-group {{ form_error_class('summary', $errors) }}">
-                                <label for="summary">Summary (optional)</label>
-                                <input type="text" class="form-control" id="summary" name="summary" placeholder="Please insert the Summary" value="{{ ($errors && $errors->any()? old('summary') : (isset($item)? $item->summary : '')) }}">
-                                {!! form_error_message('summary', $errors) !!}
-                            </div> -->
-
-                            <!-- <div class="row">
-                                <div class="col col-md-6">
-                                    <div class="form-group {{ form_error_class('active_from', $errors) }}">
-                                        <label for="active_from">Active From</label>
-                                        <div class="input-group">
-                                            <input type="text" class="form-control" id="active_from" data-date-format="YYYY-MM-DD HH:mm:ss" name="active_from" placeholder="Please insert the Active From" value="{{ ($errors && $errors->any()? old('active_from') : (isset($item)? $item->active_from : '')) }}">
-                                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                                        </div>
-                                        {!! form_error_message('active_from', $errors) !!}
-                                    </div>
-                                </div>
-
-                                <div class="col col-md-6">
-                                    <div class="form-group {{ form_error_class('active_to', $errors) }}">
-                                        <label for="active_to">Active To</label>
-                                        <div class="input-group">
-                                            <input type="text" class="form-control" id="active_to" data-date-format="YYYY-MM-DD HH:mm:ss" name="active_to" placeholder="Please insert the Active To" value="{{ ($errors && $errors->any()? old('active_to') : (isset($item)? $item->active_to : '')) }}">
-                                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                                        </div>
-                                        {!! form_error_message('active_to', $errors) !!}
-                                    </div>
-                                </div>
-                            </div> -->
                             <div class="form-group {{ form_error_class('content', $errors) }}">
                                 <label for="article-content">Content 1</label>
                                 <textarea class="form-control summernote" id="article-content" name="content" rows="18">{{ ($errors && $errors->any()? old('content') : (isset($item)? $item->content : '')) }}</textarea>
                                 {!! form_error_message('content', $errors) !!}
                             </div>
-                            <div class="form-group {{ form_error_class('content', $errors) }}">
-                                <label for="article-content">Content 2</label>
-                                <textarea class="form-control summernote" id="article-content" name="content1" rows="18">{{ ($errors && $errors->any()? old('content') : (isset($item)? $item->content1 : '')) }}</textarea>
-                                {!! form_error_message('content', $errors) !!}
-                            </div>
-
                             <div class="form-group {{ form_error_class('content1', $errors) }}">
-                                <label for="article-content">Content 3</label>
-                                <textarea class="form-control summernote" id="article-content" name="content2" rows="18">{{ ($errors && $errors->any()? old('content1') : (isset($item)? $item->content2 : '')) }}</textarea>
+                                <label for="article-content">Content 2</label>
+                                <textarea class="form-control summernote" id="article-content" name="content1" rows="18">{{ ($errors && $errors->any()? old('content1') : (isset($item)? $item->content1 : '')) }}</textarea>
                                 {!! form_error_message('content1', $errors) !!}
                             </div>
 
                             <div class="form-group {{ form_error_class('content2', $errors) }}">
-                                <label for="article-content">Content 4</label>
-                                <textarea class="form-control summernote" id="article-content" name="content3" rows="18">{{ ($errors && $errors->any()? old('content2') : (isset($item)? $item->content3 : '')) }}</textarea>
-                                {!! form_error_message('content', $errors) !!}
+                                <label for="article-content">Content 3</label>
+                                <textarea class="form-control summernote" id="article-content" name="content2" rows="18">{{ ($errors && $errors->any()? old('content2') : (isset($item)? $item->content2 : '')) }}</textarea>
+                                {!! form_error_message('content2', $errors) !!}
                             </div>
 
                             <div class="form-group {{ form_error_class('content3', $errors) }}">
+                                <label for="article-content">Content 4</label>
+                                <textarea class="form-control summernote" id="article-content" name="content3" rows="18">{{ ($errors && $errors->any()? old('content3') : (isset($item)? $item->content3 : '')) }}</textarea>
+                                {!! form_error_message('content3', $errors) !!}
+                            </div>
+
+                            <div class="form-group {{ form_error_class('content4', $errors) }}">
                                 <label for="article-content">Content 5</label>
-                                <textarea class="form-control summernote" id="article-content" name="content4" rows="18">{{ ($errors && $errors->any()? old('content3') : (isset($item)? $item->content4 : '')) }}</textarea>
-                                {!! form_error_message('content', $errors) !!}
+                                <textarea class="form-control summernote" id="article-content" name="content4" rows="18">{{ ($errors && $errors->any()? old('content4') : (isset($item)? $item->content4 : '')) }}</textarea>
+                                {!! form_error_message('content4', $errors) !!}
                             </div>
 
                         </fieldset>
