@@ -171,6 +171,7 @@
 					<div id="carouselHero" class="carousel slide carousel-fade" data-bs-ride="carousel">
 						<div class="logo-carrusel"><img src="../assets/img/Logo-Large.svg" alt=""></div>
 						<div class="carousel-inner">
+
 							@foreach($slider->photos as $index => $item)
 								<div class="carousel-item @if($index == 0) active @endif">
 									<img src="{{ $item->url }}" class="w-100">

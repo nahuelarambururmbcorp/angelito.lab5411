@@ -95,6 +95,7 @@ class HomeController extends WebsiteController
 
         $album = PhotoAlbum::where('slug', "slidershop")->first();
         $timeline = Timeline::orderBy('order','asc')->get();
+
         return $this->view('shop')->with('slider', $album)->with('news', $items)->with('hidePageFooter', true)->with('articles', $articles)->with('eventos', $eventos)->with('timeline', $timeline);
     }
     
