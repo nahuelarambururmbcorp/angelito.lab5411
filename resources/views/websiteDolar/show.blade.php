@@ -24,15 +24,15 @@
 			@if($content!=null)
 				<section class="hero-show-{{ $index }}">
 					<div class="container-lg">
-						<div class="row align-items-center justify-content-end">
-					<div class="col-12 col-md-8 col-lg-6 col-xl-5">
-						<div class="box-detail text-center box-detail_show">
+						<div class="row align-items-center @if($index % 2 == 0) justify-content-end @else justify-content-start @endif ">
+							<div class="col-12 col-md-8 col-lg-6 col-xl-5">
+								<div class="box-detail text-center box-detail_show">
 
-							<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">{!! $content !!}</p>
+								<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">{!! $content !!}</p>
 						
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
 					</div>
 				</section>
 			@endif
