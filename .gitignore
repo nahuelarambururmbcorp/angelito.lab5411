@@ -3,3 +3,7 @@
 
 /angelito/vendor
 
+.idea/modules.xml
+.idea/php.xml
+.dea/phpunit.xml
+.idea/vcs.xml
