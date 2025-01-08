@@ -1157,10 +1157,10 @@ span.ic {
 --------------------------------------------------------------*/
 .hero-show {
     padding: 120px 0 160px;
-    background-image: url('../../assets/img/show/Hero-El-Show.jpg');
-    background-position: top center;
+    background-color: #000000;
+    background-image: url('../../assets/img/show/show-image-01.png');
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
 }
 
