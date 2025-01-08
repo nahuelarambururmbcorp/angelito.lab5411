@@ -1,0 +1,95 @@
+/* ===============================
+TABLA DE COLORES
+=================================*/
+/*
+# Celeste
+# Dorado
+# Negro
+# Blanco
+*/
+
+/* ----------------------------
+# Celeste
+------------------------------*/
+.Web-Header,
+.home-show,
+.Web-Footer,
+.Web-Footer::before,
+.cenaShow-servicios,
+.cenaShow-hero,
+.informacion-mapa,
+.section-descubrir,
+.separator-shop {
+    background-color: #C3D6E5;
+}
+/* ----------------------------
+# Dorado
+------------------------------*/
+.main-navigation ul > li.active > a,
+.main-navigation ul > li > a:hover,
+.cta:hover,
+.font-gold,
+.show-info_last .cta:nth-of-type(2),
+.show-info_last .cta:hover,
+.widget-footer-1 .cta:hover,
+.show-info h6,
+.box-servicios_detail h3,
+.box-detail-cenaShow .box-heading h3 {
+    color: #C69C6D;
+}
+
+.main-navigation ul > li.destacar > a {
+    border: 1px solid #C69C6D;
+}
+
+.cta {
+    border: 1px solid #C69C6D;
+}
+
+.box-show {
+	border: 2px solid #C69C6D;
+}
+
+.cta,
+.divide-line,
+.box-show-extra,
+.widget-footer-1 .cta,
+.box-ubicacion {
+    background-color: #C69C6D;
+}
+/* ----------------------------
+# Negro
+------------------------------*/
+.main-navigation ul > li > a,
+.home-show .box-heading p,
+.box-show,
+.widget-footer a,
+.box-servicios_detail .cta {
+    color: #030304;
+}
+
+.menu-activador-linea {
+    background-color: #030304;
+}
+/* ----------------------------
+# Blanco
+------------------------------*/
+.cta,
+.widget-footer-1 .cta,
+.box-show-extra,
+.box-detail_show h3,
+.box-detail_show p,
+.box-ubicacion_detail,
+.box-informacion_detail,
+.box-detail_shop {
+    color: #fff;
+}
+
+.cta:hover,
+.box-show {
+    background-color: #fff;
+}
+
+.box-informacion_detail .cta {
+    border: 1px solid #fff;
+}
