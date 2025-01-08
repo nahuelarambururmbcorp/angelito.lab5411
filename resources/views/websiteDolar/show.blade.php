@@ -12,7 +12,7 @@
 								<h3><span class="text-danger font-weight-bold">{{$data->title}}</span></h3>
 							</div>
 
-							<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">{!! $data->content !!}</p>
+							<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">{!! $data->content !!} ..</p>
 
 						</div>
 					</div>
