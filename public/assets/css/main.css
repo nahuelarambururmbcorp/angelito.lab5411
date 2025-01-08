@@ -121,17 +121,11 @@ textarea {
   word-break: break-word;
   box-sizing: border-box;
 }
-input[type=email],
-input[type=password]{
-    color:#000;
-}
-input[type=email]:focus,
-input[type=password]:focus{
-    color:#000;
-}
 
 input[type=text],
+input[type=email],
 input[type=url],
+input[type=password],
 input[type=search],
 input[type=number],
 input[type=tel],
@@ -157,7 +151,9 @@ textarea {
 }
 
 input[type=text]:focus,
+input[type=email]:focus,
 input[type=url]:focus,
+input[type=password]:focus,
 input[type=search]:focus,
 input[type=number]:focus,
 input[type=tel]:focus,
@@ -1161,42 +1157,10 @@ span.ic {
 --------------------------------------------------------------*/
 .hero-show {
     padding: 120px 0 160px;
-    background-color: #000000;
-    background-image: url('../../assets/img/show/show-image-01.png');
-    background-position: right;
+    background-image: url('../../assets/img/show/Hero-El-Show.jpg');
+    background-position: top center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.hero-show-0 {
-    padding: 120px 0 160px;
-    background-color: #000000;
-    background-image: url('../../assets/img/show/show-image-02.png');
-    background-position: left;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.hero-show-1 {
-    padding: 120px 0 160px;
-    background-color: #000000;
-    background-image: url('../../assets/img/show/show-image-02.png');
-    background-position: right;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.hero-show-2 {
-    padding: 120px 0 160px;
-    background-color: #000000;
-    background-image: url('../../assets/img/show/show-image.jpg');
-    background-position: left;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.hero-show-3 {
-    padding: 120px 0 160px;
-    background-color: #000000;
-    background-image: url('../../assets/img/show/show-image.jpg');
-    background-position: right;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -1278,8 +1242,8 @@ span.ic {
 
 .cenaShow-descrip {
     padding: 120px 0;
-    background-image: url(../../assets/img/cenashow/Hero-Cena-Show1.jpg);
-    background-position: center center;
+    background-image: url(../../assets/img/cenashow/Hero-Cena-Show.jpg);
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 }
