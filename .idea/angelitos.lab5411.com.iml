@@ -138,6 +138,10 @@
       <excludeFolder url="file://$MODULE_DIR$/angelito/vendor/voku/simple_html_dom" />
       <excludeFolder url="file://$MODULE_DIR$/angelito/vendor/webmozart/assert" />
       <excludeFolder url="file://$MODULE_DIR$/angelito/vendor/yajra/laravel-datatables-oracle" />
+      <excludeFolder url="file://$MODULE_DIR$/angelito/.idea/dataSources" />
+      <excludeFolder url="file://$MODULE_DIR$/angelito/storage/app/public/eventos" />
+      <excludeFolder url="file://$MODULE_DIR$/angelito/storage/framework/cache/data" />
+      <excludeFolder url="file://$MODULE_DIR$/angelito/vendor" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
