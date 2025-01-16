@@ -1169,7 +1169,38 @@ span.ic {
     background-size: cover;
     background-attachment: fixed;
 }
-
+.hero-show-0 {
+    padding: 120px 0 160px;
+    background-color: #000000;
+    background-image: url('../../assets/img/show/show-image-02.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-show-1 {
+    padding: 120px 0 160px;
+    background-color: #000000;
+    background-image: url('../../assets/img/show/show-image-02.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-show-2 {
+    padding: 120px 0 160px;
+    background-color: #000000;
+    background-image: url('../../assets/img/show/show-image.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-show-3 {
+    padding: 120px 0 160px;
+    background-color: #000000;
+    background-image: url('../../assets/img/show/show-image.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .show-section-info .container-show-precio {
     position: relative;
     top: -30px;
