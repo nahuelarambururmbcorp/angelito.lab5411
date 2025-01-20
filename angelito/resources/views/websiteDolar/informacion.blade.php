@@ -31,7 +31,7 @@
 									</div>
 									<div class="col-12 col-md-7">
 										<div class="container-iframe">
-											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2321.885247793127!2d-58.36446653079852!3d-34.613223087206904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334d7bd11f6df%3A0xdb7e986debba8d17!2sFaena%20Hotel%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1703255865506!5m2!1sen!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2321.885247793127!2d-58.3997504!3d-34.6071555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9c865b35301%3A0xafded52fd6f86945!2sCaf%C3%A9+de+los+Angelitos!5e0!3m2!1sen!2sar!4v1703255865506!5m2!1sen!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 										</div>
 									</div>
 								</div>
