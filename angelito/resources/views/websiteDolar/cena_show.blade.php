@@ -229,7 +229,7 @@
 			</section> -->
 
 
-	<section class="show-section-info">
+	<section class="show-section-info mt-5">
 				<div class="container-lg">
 					<div class="row">
 						<div class="col-12 text-center">
