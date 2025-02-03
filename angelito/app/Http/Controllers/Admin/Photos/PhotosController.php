@@ -85,7 +85,6 @@ class PhotosController extends AdminController
     {
         // upload the photo here
         $attributes = request();
-
         // get the photoable
         $photoable = input('photoable_type')::find(input('photoable_id'));
 
@@ -195,7 +194,8 @@ class PhotosController extends AdminController
         $filename = $name . $extension2;
 
         //$path = upload_path('photos');
-        $path = "/home/dh_t5gvmm/angelitos.lab5411.com/uploads/photos/";
+        //dd($path);
+        $path = "/home/codehives/cafedelosangelitos.com/uploads/photos/";
         $imageTmp = Image::make($file->getRealPath())->encode($file->extension(), 90);
 
         if (!$imageTmp) {
