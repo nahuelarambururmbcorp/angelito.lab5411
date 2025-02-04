@@ -9,7 +9,7 @@
 					<div class="col-12 col-md-8 col-lg-6 col-xl-5">
 						<div class="box-detail text-left box-detail_show">
 							<div class="box-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-								<h3><span class="text-danger font-weight-bold">{{$data->title}}</span></h3>
+								<h3><span class="font-weight-bold" style="color:#C69C6D">{{$data->title}}</span></h3>
 							</div>
 
 							<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">{!! $data->content !!} ..</p>

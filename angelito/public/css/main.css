@@ -1163,7 +1163,7 @@ span.ic {
 .hero-show {
     padding: 120px 0 160px;
     background-color: #000000;
-    background-image: url('../../assets/img/show/show-image-01.png');
+    background-image: url('../../assets/img/show/show-image-001.jpg');
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1172,7 +1172,7 @@ span.ic {
 .hero-show-0 {
     padding: 120px 0 160px;
     background-color: #000000;
-    background-image: url('../../assets/img/show/show-image-02.png');
+    background-image: url('../../assets/img/show/show-image-002.jpg');
     background-position: left;
     background-repeat: no-repeat;
     background-attachment: fixed;
