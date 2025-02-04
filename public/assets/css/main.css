@@ -1156,28 +1156,32 @@ span.ic {
 # Show
 --------------------------------------------------------------*/
 .hero-show {
+
     padding: 120px 0 160px;
-    background-color: #000000;
-    background-image: url('../../assets/img/show/show-image-01.png');
+    background-color: #c3d6e5;
+    background-image: url('../../assets/img/show/show-image-001.JPG');
     background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 50% auto;
 }
 .hero-show-0 {
     padding: 120px 0 160px;
-    background-color: #000000;
-    background-image: url('../../assets/img/show/show-image-02.png');
+    background-color: #c3d6e5;
+    background-image: url('../../assets/img/show/show-image-002.JPG');
     background-position: left;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 50% auto;
 }
 .hero-show-1 {
     padding: 120px 0 160px;
-    background-color: #000000;
+    background-color: #c3d6e5;
     background-image: url('../../assets/img/show/show-image-02.png');
     background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 50% auto;
 }
 .hero-show-2 {
     padding: 120px 0 160px;
