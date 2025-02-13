@@ -665,7 +665,7 @@ a, .Web-Header.Sticky, .cta, img, .menu,
 .box-show_flex > * {
     display: flex;
     align-items: center;
-/*    justify-content: center;*/
+    justify-content: center;
     position: static;
     flex: 1;
 }

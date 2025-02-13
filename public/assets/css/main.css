@@ -641,7 +641,7 @@ a, .Web-Header.Sticky, .cta, img, .menu,
 .box-show_flex > * {
     display: flex;
     align-items: center;
-/*    justify-content: center;*/
+    justify-content: center;
     position: static;
     flex: 1;
 }
@@ -700,7 +700,7 @@ a, .Web-Header.Sticky, .cta, img, .menu,
 
 .show-info {
     align-self: center;
-    text-align: left;
+    text-align: center;
     padding: 0 12px;
 }
 .show-info p {

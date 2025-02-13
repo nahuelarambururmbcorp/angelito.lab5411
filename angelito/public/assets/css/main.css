@@ -636,7 +636,7 @@ a, .Web-Header.Sticky, .cta, img, .menu,
 .box-show_flex {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     position: static;
     padding: 31px 27px 10px;
@@ -645,7 +645,7 @@ a, .Web-Header.Sticky, .cta, img, .menu,
 .box-show_flex > * {
     display: flex;
     align-items: center;
-/*    justify-content: center;*/
+    justify-content: center;
     position: static;
     flex: 1;
 }
