@@ -50,6 +50,11 @@
 	}
 	.hero-show {
 	    background-attachment: scroll;
+		background-size: cover;
+	}
+	.hero-show-0 {
+		background-attachment: scroll;
+		background-size: cover;
 	}
 	.cenaShow-hero::after {
 	    opacity: 0;
