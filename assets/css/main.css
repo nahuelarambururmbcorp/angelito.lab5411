@@ -1165,6 +1165,23 @@ span.ic {
     background-attachment: fixed;
     background-size: 50% auto;
 }
+
+.hero-show::before {
+    content: url('../../assets/img/show/cena-show-illustrator.png');
+    position: absolute;
+    top: 19px;
+    left: 19px;
+    z-index: -1;
+}
+
+.hero-show::after {
+    content: url('../../assets/img/show/cena-show-logo.png');
+    position: absolute;
+    top: 40px;
+    right: 140px;
+    z-index: -1;
+}
+
 .hero-show-0 {
     padding: 120px 0 160px;
     background-color: #c3d6e5;

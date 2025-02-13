@@ -128,15 +128,15 @@
 					<div class="wrapper-box-show_informacion">
 						<div class="box-show wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 							@foreach($eventos as $index => $item)
-								<div class="box-show_flex">
-									<div class="box-show-col">
+								<div class="row box-show_flex ">
+									<div class="col col-sm-box-show-col">
 										<div class="show-info_img">
-											<img src="{{ asset('storage/' . $item->imagen) }}">
+											<img src="{{ asset('storage/' . $item->imagen) }}" alt="">
 										</div>
 									</div>
 									<div class="box-show-col">
 										<div class="box-show_flex_inner">
-											<div class="show-info_title">
+											<div class="show-info_title py-4 justify-content-md-start justify-content-center ">
 												<h3><span class="font-red">{{ $item->nombre }}</span></h3>
 											</div>
 											<div class="box-show_flex_inner_2">
@@ -179,11 +179,13 @@
 											</div>
 										</div>
 									</div>
-									<div class="box-show-col">
-										<div class="show-info show-info_last">
+									<div class="col col-12 box-show-col">
+										<div class="show-info show-info_last text-center text-md-start w-100">
 											<h3>{{ $item->precio }} USD</h3>
-											<a class="cta mb-2" href="?partner_id=9MRZPLV&partner_ticketing_activity_ids=764572">Reservar</a>
-											<a class="cta" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modalMenu{{ $item->id }}">Menú</a>
+											<a class="cta mb-2"
+											   href="?partner_id=9MRZPLV&partner_ticketing_activity_ids=764572">Reservar</a>
+											<a class="cta" href="javascript:void(0)" data-bs-toggle="modal"
+											   data-bs-target="#modalMenu{{ $item->id }}">Menú</a>
 										</div>
 									</div>
 								</div>
